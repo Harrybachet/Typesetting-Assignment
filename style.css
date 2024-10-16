@@ -1,0 +1,194 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto+Slab:wght@400;700&display=swap');
+
+/* Box Sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Set base font size for entire page */
+html {
+  font-size: 10px; 
+}
+
+/* General Body Styles */
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  letter-spacing: 0.02rem;
+  word-spacing: 0.05rem;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Layout for main elements */
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+section {
+  float: left;
+  width: 55%;
+  padding: 2rem;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  padding: 2rem;
+}
+
+footer {
+  clear: both;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* Headings Styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.08rem;
+}
+
+h3 {
+  font-size: 2rem;
+  letter-spacing: 0.06rem;
+}
+
+/* Paragraphs and list items styles */
+p, li {
+  font-size: 1.6rem;
+  letter-spacing: 0.02rem;
+  word-spacing: 0.05rem;
+  line-height: 1.6;
+}
+
+/* Indentation for the first paragraph in each section */
+section p:first-of-type {
+  text-indent: 1.25rem;
+}
+
+section p:nth-of-type(3) {
+  text-indent: 1.25rem;
+}
+
+/* Link Styles */
+a {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #a66;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #7b4444;
+}
+
+a:hover, a:focus {
+  color: #a66;
+  text-decoration: none;
+  outline: none;
+}
+
+a:active {
+  color: #fff;
+  background-color: #a66;
+  padding: 2px 4px;
+}
+
+/* External link icon next to links */
+a[href^="http"]:after {
+  content: '';
+  display: inline-block;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  background-image: url('external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Icons for specific terms */
+.examination:after,
+.jobs:after,
+.careers:after,
+.too-emotional:after {
+  content: '';
+  display: inline-block;
+  margin-left: 0.3rem;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  background-image: url('external-link-52.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* List Styles */
+ul, ol {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  list-style-type: square;
+}
+
+li {
+  line-height: 1.6;
+}
+
+/* Navigation Menu Styling */
+nav {
+  width: 20%;
+  float: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 1.5rem;
+}
+
+nav a {
+  font-size: 1.6rem;
+  font-weight: 400;
+  display: block;
+  padding: 1.5rem;
+  border: 1px solid #a66;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #a66;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #f2e1e1;
+}
+
+/* Footer Text */
+footer {
+  font-size: 1.4rem;
+  text-align: center;
+}
